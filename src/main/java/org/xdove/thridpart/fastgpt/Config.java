@@ -25,4 +25,12 @@ public class Config {
         this.chatKey = chatKey;
     }
 
+    public Config(String apiUrl, String key, String chatKey) {
+        this.apiUrl = apiUrl;
+        this.key = key;
+        this.charset = Charset.defaultCharset().displayName();
+        this.version = "v1";
+        this.chatKey = chatKey;
+    }
+
 }
